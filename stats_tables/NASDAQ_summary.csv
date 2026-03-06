@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+NASDAQ,13720,0.00039195755929940216,0.012748374915982531,-0.3294111256927418,9.570088938079142,0.0,4.726099420614591e-114,3.5294725201080984e-51,293.6714118716536,2.942516557717705,0.6100275513291384,1.0504358542371344,1.076496191511924,8.280733093336331e-05,0.0,0.0,,,,,,,

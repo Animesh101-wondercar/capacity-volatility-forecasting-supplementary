@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+CAC40_FRANCE,8979,0.00015666373149591313,0.013410294301990897,-0.20388743672403128,5.898222611049231,0.0,7.511993197371563e-34,3.8253368490120846e-38,87.8358123448179,3.1711070139239004,0.5336787216548071,0.9579316444952867,0.9660786337473601,1.623257622757166e-05,0.0,0.0,,,,,,,

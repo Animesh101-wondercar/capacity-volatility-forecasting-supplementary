@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+EUROSTOXX50,4581,6.274374353732692e-05,0.013911631936475112,-0.31258293930964054,7.679704806813101,0.0,1.1842243942008582e-25,8.247519936187486e-44,67.60026869475769,2.962529687349127,0.5153950653637931,0.9305847139425645,0.9321086941479242,0.0004492073853237349,0.0,0.0,,,,,,,

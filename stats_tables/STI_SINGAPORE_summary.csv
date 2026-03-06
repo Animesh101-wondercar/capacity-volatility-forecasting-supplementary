@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+STI_SINGAPORE,9376,0.0001639535726405768,0.011409211553754706,-0.16801875733951047,9.946271674570559,0.0,7.599127752532668e-55,2.0735110838289728e-46,157.5477532581499,2.697092971152379,0.5525294404920011,1.0776809177100664,1.0817581284694295,1.2523262957777937e-16,0.0,0.0,,,,,,,

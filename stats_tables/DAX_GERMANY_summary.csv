@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+DAX_GERMANY,9489,0.00032939747626241546,0.013689395518907396,-0.30921287071892584,6.914193794504241,0.0,4.5463444302417934e-42,2.4353899638427466e-39,109.0312402607633,3.160236830647542,0.546682277207915,0.9877760646572766,1.00897928816202,0.0502547336315461,0.0,0.0,,,,,,,

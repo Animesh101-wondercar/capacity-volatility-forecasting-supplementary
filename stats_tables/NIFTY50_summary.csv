@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+NIFTY50,4364,0.00037365118907119595,0.012726541225513399,-0.2859460889122388,16.235752554191677,0.0,1.2010471293044978e-26,1.6828574704697472e-48,76.3256715655134,2.688015593474086,0.5700279561583038,0.9580227099148114,1.0124757483851896,3.095120354539593e-05,0.0,0.0,,,,,,,

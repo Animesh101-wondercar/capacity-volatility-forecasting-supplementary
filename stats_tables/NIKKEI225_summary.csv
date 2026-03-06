@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+NIKKEI225,14873,0.0002549569299676489,0.012810605118482817,-0.4206131671462603,9.710150656344668,0.0,3.1250142687752595e-80,4.1068094154132276e-48,214.73516878818918,3.1062355613286834,0.5534309715262442,1.0057264993247184,1.018439545355441,0.015455409453222465,0.0,0.0,,,,,,,

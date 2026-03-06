@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+SP500,24494,0.0002385636104439631,0.011967483515982669,-0.4663642457887513,18.730128902648403,0.0,3.333195257175407e-201,1.3480306089586438e-50,600.2171479159442,2.5295010870651007,0.5421943416962649,1.0169531403784315,1.030330899926722,2.0977984964055117e-07,0.0,0.0,,,,,,,

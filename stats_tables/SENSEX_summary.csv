@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+SENSEX,6899,0.00046212932917300237,0.014225132154859276,-0.28352037554381854,8.796732375590521,0.0,1.2996200264388172e-33,7.160012820696517e-41,97.18655945655883,3.100836797233596,0.551337583464009,1.0151773114177107,1.0525105384102773,5.636992416409382e-09,0.0,0.0,,,,,,,

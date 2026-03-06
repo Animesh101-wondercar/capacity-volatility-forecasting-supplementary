@@ -1,0 +1,2 @@
+ticker,n_obs,mean,std,skew,kurtosis,jb_p,ks_p,shapiro_p,anderson_stat,hill_alpha,hurst_rs,var_scaling_beta,zeta_p2,ljung_r_p,ljung_abs_p,ljung_sq_p,bds_stat,bds_p,kpss_p,corr_logyz_pcrisis,corr_absret_pchange,evt_in_hmm_frac,evt_in_bocpd_frac
+DJIA,8438,0.0003127884217636619,0.011029018725356629,-0.38437981689441963,12.940041534753298,0.0,9.900745346120982e-56,1.0102296991892671e-45,147.05699109271154,2.8301234824086934,0.523257713991255,0.9190969839921024,0.9627974755874924,2.1565464372340303e-16,0.0,0.0,,,,,,,
