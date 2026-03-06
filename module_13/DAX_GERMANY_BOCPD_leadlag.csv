@@ -1,0 +1,4 @@
+crisis_start,crisis_end,has_signal,lead_days,signal,ticker
+2002-09-03,2003-08-29,1,60,BOCPD,DAX_GERMANY
+2003-09-10,2003-10-14,1,58,BOCPD,DAX_GERMANY
+2003-10-22,2003-10-27,1,51,BOCPD,DAX_GERMANY

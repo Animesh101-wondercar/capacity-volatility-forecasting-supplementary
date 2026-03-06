@@ -1,0 +1,4 @@
+crisis_start,crisis_end,has_signal,lead_days,signal,ticker
+2002-10-02,2002-10-11,1,58,HMM,DJIA
+2003-03-03,2003-03-13,1,54,HMM,DJIA
+2008-10-07,2009-08-20,1,60,HMM,DJIA
