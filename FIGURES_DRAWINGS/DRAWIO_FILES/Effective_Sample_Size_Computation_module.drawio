@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="46CivmM5OJrjAzaxNBPc">
+    <mxGraphModel dx="1567" dy="940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s5fQzR64paXdxcb3QsVu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="s5fQzR64paXdxcb3QsVu-2" target="s5fQzR64paXdxcb3QsVu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-2" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;ROLLING TRAINING WINDOW&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-3" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Log Realized Volatility Series&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;log(RV&lt;sub&gt;t&lt;/sub&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="s5fQzR64paXdxcb3QsVu-4" target="s5fQzR64paXdxcb3QsVu-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-4" value="&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;AUTOCORRELATION ESTIMATION SETUP&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;Sample ACF up to lag&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 17px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;κ&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; font-family: Verdana; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;=22&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;[&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 17px;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;ρ(1),&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ρ(2),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ρ(3)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Verdana; font-size: 17px;&quot;&gt;. . .,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Verdana; font-size: 17px;&quot;&gt;ρ(22)]&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="284" y="140" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;DEPENDENCE ADJUSTMENT&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot; face=&quot;Verdana&quot;&gt;N&lt;sub style=&quot;&quot;&gt;eff&amp;nbsp;&lt;/sub&gt;=&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot; face=&quot;Verdana&quot;&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;1+2&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: Verdana; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Σ&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ρ(&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;κ)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739" y="240" as="sourcePoint" />
+            <mxPoint x="829" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Verdana&quot;&gt;PASSED TO CAPACITY CONTROLLER&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="160" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.71;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="s5fQzR64paXdxcb3QsVu-3" target="s5fQzR64paXdxcb3QsVu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5fQzR64paXdxcb3QsVu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="s5fQzR64paXdxcb3QsVu-5" target="s5fQzR64paXdxcb3QsVu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

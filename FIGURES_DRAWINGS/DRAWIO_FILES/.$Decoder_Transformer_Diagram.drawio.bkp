@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="wPL81ImYi7ZhCK7AJ_76">
+    <mxGraphModel dx="11881" dy="7988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MowkIysozVQPNjoDzCre-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" source="MowkIysozVQPNjoDzCre-2" target="MowkIysozVQPNjoDzCre-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-2" value="&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 100px;&quot;&gt;DAILY OHLC DATA&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;$$O_t,\; H_t,\; L_t,\; C_t$$&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="-2110" y="-397" width="1000" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" source="MowkIysozVQPNjoDzCre-4" target="MowkIysozVQPNjoDzCre-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;RETURN CONSTRUCTION&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 100px;&quot;&gt;$$r_t = \log(C_t) - \log(C_{t-1})$$&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 19px; font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="-960" y="-452" width="1370" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-6" target="MowkIysozVQPNjoDzCre-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="-1361.428571428571" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="-837" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-6" value="&lt;font style=&quot;font-size: 82px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;REALIZED VOLATILITY ESTIMATION&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 82px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 82px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;Yang-Zhang/ Range Estimators&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 82px;&quot;&gt;\(\sigma_t^2\)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="480" y="-455" width="1110" height="825" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-7" target="MowkIysozVQPNjoDzCre-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 200px;&quot; face=&quot;Verdana&quot;&gt;HAR MEMORY FILTER&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 200px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 200px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 200px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="-1640" width="3820" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 96px;&quot; face=&quot;Verdana&quot;&gt;DAILY MEMORY&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 96px;&quot;&gt;$$RV^{(d)}_t = \log(\sigma_t^2)$$&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="-1290" width="920" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-9" value="&lt;font style=&quot;font-size: 90px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;WEEKLY MEMORY&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 90px;&quot;&gt;$$RV^{(w)}_t = \frac{1}{5}\sum_{i=1}^{5}\log(\sigma_{t-i}^2)$$&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="2470" y="-1290" width="1350" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-10" value="&lt;font style=&quot;font-size: 90px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;MONTHLY MEMORY&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 90px;&quot;&gt;$$RV^{(m)}_t = \frac{1}{21}\sum_{i=1}^{21}\log(\sigma_{t-i}^2)$$&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3874" y="-1291" width="1350" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-12" target="MowkIysozVQPNjoDzCre-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3605" y="475" />
+              <mxPoint x="3605" y="-490" />
+              <mxPoint x="4995" y="-490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 85px;&quot; face=&quot;Verdana&quot;&gt;EXTENDED INFORMATION SET&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 60px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 60px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 60px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="-360" width="1530" height="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 71px;&quot;&gt;RANGE BASED VOLATILITY FEATURES&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 71px;&quot;&gt;Parkinson, Garman-Klass, Rogers-Satchell&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="-190" width="1450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-14" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 77px;&quot;&gt;JUMP/ CONTINUOUS DECOMPOSITION&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 77px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 77px;&quot;&gt;Bipower Variation&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 77px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;$$BV_t = \mu_1^{-2}\sum_{i=2}^{M} |r_{t,i}|\,|r_{t,i-1}|$$&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 77px;&quot;&gt;Jump Component&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 77px;&quot;&gt;$$J_t = RV_t - BV_t$$&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="60" width="1450" height="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-15" value="&lt;font style=&quot;font-size: 110px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;HAR-X FEATURE VECTOR&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 58px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 90px;&quot;&gt;$$X_t = \big[RV^{(d)}_t,\; RV^{(w)}_t,\; RV^{(m)}_t,\; \text{Range}_t,\; BV_t,\; J_t\big]$$&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3800" y="-370" width="2390" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5070" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-17" value="&lt;div&gt;&lt;font style=&quot;font-size: 95px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;LOOKBACK WINDOW CONSTRUCTION&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 85px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 85px;&quot;&gt;At time \(t\), sequence is constructed by&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 85px;&quot;&gt;$$X_t = (X_{t-L+1},\, X_{t-L+2},\, \ldots,\, X_t)$$&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 85px;&quot;&gt;\(\qquad L \in \{5,10,15\}\)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3870" y="740" width="2400" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3810" y="2826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;INPUT EMBEDDING&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;Each vector is linearly projected to model dimension \(d_{model}\):&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 100px;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Verdana&quot;&gt;$$z_t = W_e x_t + b_e,\qquad z_t \in \mathbb{R}^{d_{\text{model}}}$$&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Verdana;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3960" y="2391" width="2080" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-27" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3196.75" y="2680" width="914.5" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-28" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 80px;&quot;&gt;&lt;b style=&quot;&quot;&gt;DECODER BLOCK&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 80px;&quot;&gt;&lt;b style=&quot;&quot;&gt;REPEAT N LAYERS&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="3140" y="2671" width="1020" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="3030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-41" value="&lt;div&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;Query–Key–Value projections:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;For each head \(h\):&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;\(Q = ZW_Q\)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;\(K = ZW_K\)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\(V = ZW_V\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Input embedding:&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;$$z_t = W_e x_t + b_e$$&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;$$z_t \in \mathbb{R}^{d_{\text{model}}}$$&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;&lt;b&gt;Causal Masked Attention:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 100px;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;$$A = \operatorname{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}} + M_{\text{mask}}\right)$$&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$$Where: M_{ij} = -10^{9}\,\mathbf{1}_{(j&amp;gt;i)}$$&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Context:&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;$$H = AV$$&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="1560" width="2090" height="2940" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-42" value="&lt;div&gt;&lt;h2 data-end=&quot;1087&quot; data-start=&quot;1046&quot;&gt;&lt;font style=&quot;font-size: 140px;&quot; face=&quot;Verdana&quot;&gt;Residual connection + normalization&lt;/font&gt;&lt;/h2&gt;&lt;pre data-end=&quot;1144&quot; data-start=&quot;1089&quot; class=&quot;overflow-visible! px-0!&quot;&gt;&lt;div class=&quot;contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary&quot;&gt;&lt;div class=&quot;sticky top-[calc(var(--sticky-padding-top)+9*var(--spacing))]&quot;&gt;&lt;div class=&quot;absolute end-0 bottom-0 flex h-9 items-center pe-2&quot;&gt;&lt;div class=&quot;bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 140px;&quot; face=&quot;Verdana&quot;&gt;$$\tilde{Z} = \operatorname{LayerNorm}(Z + H)$$&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="-1151" y="2550" width="1969" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-45" value="&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;TEMPORAL STATE REPRESENTATION&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 120px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 120px;&quot;&gt;Output after final decoder layer \(H_t \in \mathbb{R}^{L \times d_{\text{model}}}\)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 120px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 120px;&quot;&gt;Each Vector= Learned filtered representation of market state history&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="2530" y="4600" width="1380" height="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-47" value="&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;SEQUENCE READOUT&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;Unlike encoder pooling, decoder uses final time step:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;$$H_t = (h_{t-L+1},\, h_{t-L+2},\, \ldots,\, h_t)$$&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;$$h_k \in \mathbb{R}^{d_{\text{model}}}$$&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;$$h_t^{*} = h_t^{(L)}$$&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="4140" y="4600" width="2000" height="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="MowkIysozVQPNjoDzCre-48" value="&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;&lt;b style=&quot;&quot;&gt;log vol forecast&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;$$y_{\log,\,t,h}$$&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="4600" y="6440" width="1060" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-15" target="MowkIysozVQPNjoDzCre-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.496;exitY=0.016;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3030" y="2960" as="sourcePoint" />
+            <mxPoint x="3272" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=5;" edge="1" parent="1" source="WdEva9GiqRA9spJoFYZD-18" target="WdEva9GiqRA9spJoFYZD-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-530" y="5472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-18" value="&lt;h2 data-end=&quot;1191&quot; data-start=&quot;1151&quot;&gt;&lt;font style=&quot;font-size: 140px;&quot; face=&quot;Verdana&quot;&gt;Position-wise&amp;nbsp;&lt;/font&gt;&lt;/h2&gt;&lt;h2 data-end=&quot;1191&quot; data-start=&quot;1151&quot;&gt;&lt;font style=&quot;font-size: 140px;&quot; face=&quot;Verdana&quot;&gt;feed-forward network&lt;/font&gt;&lt;/h2&gt;&lt;pre data-end=&quot;1249&quot; data-start=&quot;1193&quot; class=&quot;overflow-visible! px-0!&quot;&gt;&lt;div class=&quot;contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary&quot;&gt;&lt;div class=&quot;sticky top-[calc(var(--sticky-padding-top)+9*var(--spacing))]&quot;&gt;&lt;div class=&quot;absolute end-0 bottom-0 flex h-9 items-center pe-2&quot;&gt;&lt;div class=&quot;bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div dir=&quot;ltr&quot; class=&quot;overflow-y-auto p-4&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;h2 data-end=&quot;1087&quot; data-start=&quot;1046&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;$$\text{FFN}(x) = W_2\,\phi(W_1 x + b_1) + b_2$$&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;font-size: 120px;&quot; face=&quot;Verdana&quot;&gt;&lt;div style=&quot;&quot;&gt;$$H_t = \operatorname{LayerNorm}(\tilde{Z} + \text{FFN}(\tilde{Z}))$$&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=east;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="3880" width="2110" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-20" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 120px;&quot;&gt;&lt;b style=&quot;&quot;&gt;CAUSAL MASK&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot;&gt;Attention mask prevents future access:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 120px;&quot;&gt;Query at position \(k\) can only see \(1, 2, 3, ...k\)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="4760" width="1260" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-181.5185185185187" y="3560" as="sourcePoint" />
+            <mxPoint x="-179.9100000000003" y="3878.9399999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-180" y="3560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="WdEva9GiqRA9spJoFYZD-20" target="MowkIysozVQPNjoDzCre-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-45" target="MowkIysozVQPNjoDzCre-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEva9GiqRA9spJoFYZD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.509;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="MowkIysozVQPNjoDzCre-47" target="MowkIysozVQPNjoDzCre-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
