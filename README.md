@@ -2,7 +2,8 @@
 
 This repository contains supplementary materials accompanying the research paper:
 
-**“Capacity-Controlled Volatility Forecasting”**
+**“Volatility Forecasting with Econometric and Machine Learning Models Under Capacity
+Control”**
 
 The study investigates volatility forecasting under explicit model capacity constraints and evaluates econometric, machine learning, and deep learning models across multiple equity indices and forecasting horizons.
 
